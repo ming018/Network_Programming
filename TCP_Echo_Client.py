@@ -11,5 +11,5 @@ while True :
 
     s.send(msg.encode()) # 서버에게 메세지 전송
     data = s.recv(BUFSIZE) # 서버로부터 메세지 받음
-    print("Received Message : %s " %data.decode()) # 바
-    # 이트 형을 문자열로 출력
+    print("Received Message : %s " %data.decode())
+    # 바이트 형을 문자열로 출력
